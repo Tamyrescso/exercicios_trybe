@@ -1,0 +1,15 @@
+{
+  "name": "dia1_primeiros_passos_no_jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "exercise1_unit-tests.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.2.1"
+  }
+}

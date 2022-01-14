@@ -1,0 +1,49 @@
+ol li {
+    background-color: yellow;
+}
+ol li:nth-child(odd) {
+    text-transform: uppercase;
+}
+ol li:nth-child(even) {
+    color: green;
+}
+h1, h3 {
+    color: red;
+}
+h1 em, h3 em {
+    font-size: 40px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+li {
+    font-size: 20px;
+}
+li em {
+    font-weight: bold;
+}
+#linguagens li:nth-child(-n+3) {
+    color: blue;
+}
+.pink {
+    background-color: pink;
+}
+#aliados a:hover {
+    font-weight: bold;
+}
+#aliados li:first-child:hover a {
+    color:coral;
+
+}
+#aliados li:nth-child(2):hover a {
+    color: green;
+}
+#aliados li:nth-child(3):hover a {
+    color:black;
+}
+#aliados li:nth-child(4):hover a {
+    color: yellow;
+}
+#aliados li:nth-child(5):hover a {
+    color: green;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.1</title>
+    
+    <style>
+      main, section {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin: 0 auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <header> 
+      <h1 class="title">Exercício 5.1 - JavaEscripito </h1>
+    </header>    
+    <main class="main-content">
+      <section class="center-content">
+        <p>Texto padrão do nosso site</p>
+        <p>-----</p>
+        <p>Trybe</p>
+      </section>
+    </main>
+    <script>
+        //Exercício 1
+        function changeP() {
+            let paragraph = document.getElementsByTagName('p')[1];
+            paragraph.innerText = "Sendo uma ótima programadora!";
+        }
+        changeP();
+
+        //Exercício 2
+        function changeColorMainSides() {
+            let sides = document.getElementsByClassName('main-content')[0];
+            sides.style.backgroundColor = 'rgb(76,164,109)';
+        }
+        changeColorMainSides();
+
+        //Exercício 3
+        function changeColorCenter() {
+            let center = document.getElementsByClassName('center-content')[0];
+            center.style.backgroundColor = 'white';
+        }
+        changeColorCenter();
+
+        //Exercício 4
+        function correctionTitle() {
+            let title = document.getElementsByTagName('h1')[0];
+            title.innerText = 'Exercício 5.1 - JavaScript'
+        }
+        correctionTitle();
+
+        //Exercício 5
+        function upperCaseP() {
+            let paragraph = document.getElementsByTagName('p')[0];
+            paragraph.style.textTransform = 'uppercase';
+        }
+        upperCaseP();
+
+        //Exercício 6
+        function showContentP() {
+            let contentP = document.getElementsByTagName('p');
+            for (let index = 0; index < contentP.length; index += 1) {
+                console.log(contentP[index].innerText);
+            }
+        }
+        showContentP();
+
+        
+    </script>
+  </body>
+</html>

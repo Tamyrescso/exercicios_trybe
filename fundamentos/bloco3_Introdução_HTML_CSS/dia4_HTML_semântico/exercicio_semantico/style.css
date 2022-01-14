@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: 
+}
+.banner {
+    background-image: url('stomatopoda_header.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.85;
+}
+.banner_title {
+    height: 700px;
+    color: #f5f5f5;
+    text-align: right;
+    padding-right:  30px;
+    padding-top: 20px;
+    font-family: 'Staatliches', cursive;
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+#stomatopoda {
+    font-size: 50px;
+    letter-spacing: normal;
+    
+}
+.navigation {
+    background-color: #110f0fd8;
+}
+.navigation li {
+    display: inline-block;
+    padding-left: 30px;
+    padding-top: 20px;
+    height: 50px;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    font-size: 25px;
+    
+}
+.navigation li a  {
+    text-decoration: none;
+    color: #ffebcd;
+}
+.content {
+    max-width: 90%;
+    font-family: 'Rajdhani', sans-serif;
+    display:inline-block;
+    margin: 50px 150px;
+}
+.content img {
+    width: 600px;
+    height: 500px;
+    border-radius: 8%;
+    padding-right: 0%;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    
+
+}
+.content h2 {
+    padding-top: 40px;
+    font-size: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.content h3, p {
+    padding-bottom: 20px;
+    padding-left: 20px;
+    line-height: 30px;
+}
+.geral_left {
+    float: left;
+}
+table {
+    float:right;
+    position: absolute;
+    left: 1080px;
+    top: 1220px;
+    
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px 20px;
+}
+.geral_text {
+    display: inline-block;
+    max-width: 50%;
+    padding-top: 50px;
+}
+.armadura {
+    clear: both;
+    max-width: 50%;
+    float:right;
+}
+.violentos_sanguinarios {
+    clear: :both;
+    max-width:50%;
+    float: left;
+}
+.agua_fervente {
+    clear: both;
+    max-width: 40%;
+    float: left;
+}
+.membros_poderosos {
+    float:right;
+    max-width: 50%;
+    padding-bottom: 4%;
+}
+.referencias {
+    font-size: 30px;
+    display: block;
+    clear: both;
+    float: right;
+    padding-right: 300px;
+}
+.video {
+    display: block;
+    width: fit-content;
+    clear: both;
+}
+.video a {
+    color: black;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 25px;
+    float: left;
+}
+.footer {
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    background-color: black;
+    color: rgb(247, 247, 247);
+    padding: 20px 0;
+
+}
+

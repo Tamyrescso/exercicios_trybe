@@ -1,0 +1,19 @@
+.Wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Forms {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.personnel-data {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start
+}

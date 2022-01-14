@@ -1,0 +1,59 @@
+.App {
+  font-family: monospace;
+}
+
+.Title {
+  text-align: center;
+  font-size: 60px;
+}
+
+.Pokedex {
+  width: 70%;
+  min-height: 80vh;
+  margin: auto;
+  border: 1px solid rgba(39, 37, 37, 0.801);
+  border-radius: 2%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.Card {
+  margin: 2%;
+  padding: 5%;
+  text-align: center;
+  background-color: rgb(233, 237, 241);
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Info {
+  background-color: rgb(255, 255, 255);
+  height: 35%;
+  width: 110%;
+}
+
+.Buttons {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Buttons button {
+  width: 20%;
+  min-width: fit-content;
+  padding: 3%;
+  margin: 2%;
+}
+
+.Next {
+  align-self: center;
+  background-color: rgb(177, 225, 236);
+  width: 20%;
+  padding: 1%;
+}

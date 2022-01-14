@@ -1,0 +1,30 @@
+h1{
+    font-size: 65px;
+    color: orange;
+    font-family: sans-serif;
+}
+p{
+    font-weight: 600;
+    font-size: 3em;text-align: center;
+    text-decoration:underline;
+}
+ul{
+    background-color: peachpuff;
+    line-height: 1cm;
+}
+.list-paragraph{
+    background-color: rgb(245, 201, 160);
+
+}
+body{
+    font-size: 16px;
+}
+#yellow {
+    background-color: yellow;
+}
+#red {
+    background-color: red;
+}
+#brown {
+    background-color: brown;
+}

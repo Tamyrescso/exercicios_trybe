@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><h1 id="title">Currículo</h1></header>
+    <main>
+        <form id="meu-form" action="" method="GET" enctype="multipart/form-data">
+            <fieldset id="dados-pessoais">
+                <legend>Dados Pessoais</legend>
+                <label for="nome">Nome:
+                    <input type="text" maxlength="40" id="nome" name="nome" required autofocus>
+                </label>
+                <br>
+                <label for="email">E-mail:
+                    <input type="email" maxlength="50" size="30" id="email" name="email" required>
+                </label>
+                <br>
+                <label for="cpf">CPF:
+                    <input type="number" id="cpf" name="cpf" maxlength="11" required>
+                </label>
+                <br>
+                <label for="endereco">Endereço:
+                    <input type="text" id="endereco" name="endereco" maxlength="200" size="45" required>
+                </label>
+                <br>
+                <label for="cidade">Cidade:
+                    <input type="text" id="cidade" name="cidade" maxlength="28" required>
+                </label>
+                <br>
+                <label for="estado">Estado:
+                    <select id="estado" name="estado" required></select>
+                </label>
+                <br>
+                <div id="container-tipo">
+                    <input type="radio" id="casa" name="tipo" value="casa"required>
+                    <label for="casa">Casa</label>
+                    <input type="radio" id="apartamento" name="tipo" value="apartamento" required>
+                    <label for="apartamento">Apartamento</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Experiência profissional</legend>
+                <div id="container-resumo">
+                    <p>Resumo do currículo:</p>
+                    <textarea id="resumo" name="resumo" maxlength="1000" cols="63" rows="20" required></textarea>
+                </div>
+                <label for="cargo">Cargo:
+                    <input type="text" id="cargo" name="cargo" maxlength="40" required>
+                </label>
+                <br>
+                <div id="container-descricao">
+                    <p>Atividades exercidas:</p>
+                    <textarea id="descricao" name="descricao" maxlength="500" cols="30" rows="10" required></textarea>
+                </div>
+                <br>
+                <label for="data_inicio">Data de início:</label>
+                <input type="text" id="data_inicio" name="data_inicio" maxlength="11" placeholder="DD/MM/YYYY" required>
+            </fieldset>
+            <button type="submit" id="button-submit">Submit</button>
+            <br>
+            <button type="reset" id="button-reset">Reset</button>
+        </form>
+        <div id="output">
+        </div>
+    </main>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

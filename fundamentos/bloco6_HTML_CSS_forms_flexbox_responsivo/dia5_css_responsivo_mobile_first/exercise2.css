@@ -1,0 +1,104 @@
+html {
+box-sizing: border-box;
+}
+*, *:before, *:after {
+box-sizing: inherit;
+}
+body {
+    margin: 15px;
+    font-size: 17px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+header p {
+    text-align: center;
+    font-size: 15px;
+    width: 100%;
+    margin: 0;
+}
+header nav {
+    display: none;
+}
+aside h2 {
+    font-size: 20px;
+    margin: 5px;
+}
+.container h1 {
+    text-align: center;
+    font-size: 25px;
+}
+footer p {
+    font-size: 15px;
+}
+@media screen and (min-width: 768px) and (max-width: 1289px) {
+    body {
+        margin: 15px;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    header nav {
+        display: flex;
+    }
+    header nav ul li {
+        padding: 8px 0;
+    }
+    header p {
+        font-size: 18px;
+        width: 100%;
+        text-align: center;
+    }
+    .container {
+        max-width: 90%;
+    }
+    .container h1 {
+        font-size: 30px;
+    }
+    footer p {
+        font-size: 17px;
+    }
+}
+@media screen and (min-width: 1290px) {
+    body {
+        margin: 25px;
+        font-size: 25px; 
+        display: flex;
+        justify-content: center;
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    header nav {
+        display: flex;
+    }
+    header nav ul {
+        display: flex;
+        list-style: none;
+    }
+    header nav ul li {
+        padding: 0 20px;
+        font-size: 19px;
+    } 
+    header p {
+        font-size: 19px;
+        width: fit-content;
+        height: fit-content;
+    }
+    aside h2 {
+        font-size: 28px;
+    }
+    .container {
+        max-width: 80%;
+    }
+    .main-content h1 {
+        font-size: 35px;
+    }
+    footer p {
+        font-size: 20px;
+    }
+}
+

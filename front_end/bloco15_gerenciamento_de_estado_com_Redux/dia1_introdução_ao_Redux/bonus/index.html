@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <script src="https://unpkg.com/redux@latest/dist/redux.min.js"></script>
+    <script defer src="src/index.js"></script>
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./src/styles.css"
+      media="screen"
+    />
+  </head>
+  <body>
+    <main class="app">
+      <h1 id="counter"></h1>
+      <section class="buttons">
+        <button id="dec">Diminui</button>
+        <button id="inc">Aumenta</button>
+      </section>
+      <section class="inputs">
+        <input type="number" id="sub" placeholder="Insira valor para diminuir"/>
+        <input type="number" id="add" placeholder="Insira valor para adicionar"/>
+      </section>
+        Número de cliques: <p id="counterClick"></p>
+        Valores adicionados: <p id="addedValues">0</p>
+    </main>
+  </body>
+</html>

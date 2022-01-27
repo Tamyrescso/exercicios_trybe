@@ -134,17 +134,17 @@ Este repositório contém todos os exercícios desenvolvidos por <a href="https:
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 
 **Bloco 19: Docker: Utilizando Containers**
-- [ ] 19.1 Introdução - Back-end
-- [ ] 19.1 Utilizando Containers - Docker
-- [ ] 19.2 Manipulação e Criação de Imagens no Docker
-- [ ] 19.3 Orquestrando Containers com Docker Compose 
+- [x] 19.1 Introdução - Back-end
+- [x] 19.1 Utilizando Containers - Docker
+- [x] 19.2 Manipulação e Criação de Imagens no Docker
+- [x] 19.3 Orquestrando Containers com Docker Compose 
 
 **Bloco 20: Introdução à SQL**
 
-- [ ] 20.1 - Introdução - Bancos de dados relacionais
-- [ ] 20.1 - Banco de dados SQL
-- [ ] 20.2 - Encontrando dados em um banco de dados
-- [ ] 20.3 - Filtrando dados de forma específica
+- [x] 20.1 - Introdução - Bancos de dados relacionais
+- [x] 20.1 - Banco de dados SQL
+- [x] 20.2 - Encontrando dados em um banco de dados
+- [x] 20.3 - Filtrando dados de forma específica
 - [ ] 20.4 - Manipulando tabelas
 
 **Bloco 21: Funções SQL, JOINs e Normalização**

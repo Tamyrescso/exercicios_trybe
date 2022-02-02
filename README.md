@@ -145,12 +145,12 @@ Este repositório contém todos os exercícios desenvolvidos por <a href="https:
 - [x] 20.1 - Banco de dados SQL
 - [x] 20.2 - Encontrando dados em um banco de dados
 - [x] 20.3 - Filtrando dados de forma específica
-- [ ] 20.4 - Manipulando tabelas
+- [x] 20.4 - Manipulando tabelas
 
 **Bloco 21: Funções SQL, JOINs e Normalização**
 
-- [ ] 21.1 - Funções mais usadas no SQL
-- [ ] 21.2 - Descomplicando JOINs
+- [x] 21.1 - Funções mais usadas no SQL
+- [x] 21.2 - Descomplicando JOINs
 - [ ] 21.3 - Tranformando ideias em um modelo de banco de dados
 
 **Bloco 22:  Introdução ao desenvolvimento Web com Node.js**

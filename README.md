@@ -151,7 +151,7 @@ Este repositório contém todos os exercícios desenvolvidos por <a href="https:
 
 - [x] 21.1 - Funções mais usadas no SQL
 - [x] 21.2 - Descomplicando JOINs
-- [ ] 21.3 - Tranformando ideias em um modelo de banco de dados
+- [x] 21.3 - Tranformando ideias em um modelo de banco de dados
 
 **Bloco 22:  Introdução ao desenvolvimento Web com Node.js**
 

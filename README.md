@@ -155,26 +155,26 @@ Este repositório contém todos os exercícios desenvolvidos por <a href="https:
 
 **Bloco 22:  Introdução ao desenvolvimento Web com Node.js**
 
-- [ ] 22.1 - Intro - Node.js
-- [ ] 22.1 Node.js - Um motor JavaScript
-- [ ] 22.2 Node.js - Fluxo Assíncrono
-- [ ] 22.3 Mocha, Chai e Sinon - Testes de Back-end com Node.js
-- [ ] 22.4 Express - HTTP com Node.js
-- [ ] 22.5 Express - Middlewares
+- [x] 22.1 - Intro - Node.js
+- [x] 22.1 Node.js - Um motor JavaScript
+- [x] 22.2 Node.js - Fluxo Assíncrono
+- [x] 22.3 Mocha, Chai e Sinon - Testes de Back-end com Node.js
+- [x] 22.4 Express - HTTP com Node.js
+- [x] 22.5 Express - Middlewares
 
 **Bloco 23: NodeJS: Camada de Serviço e Arquitetura Rest e Restful**
 
-- [ ] 23.1 - Introdução - Arquitetura de Software
-- [ ] 23.1 - Arquitetura de Software - Camada de Model
-- [ ] 23.2 - Arquitetura de Software - Camada de Controller e Service
-- [ ] 23.3 - Arquitetura Web - Rest e Restful
-- [ ] 23.4 - Arquitetura de Software - Testando as Camadas
+- [x] 23.1 - Introdução - Arquitetura de Software
+- [x] 23.1 - Arquitetura de Software - Camada de Model
+- [x] 23.2 - Arquitetura de Software - Camada de Controller e Service
+- [x] 23.3 - Arquitetura Web - Rest e Restful
+- [x] 23.4 - Arquitetura de Software - Testando as Camadas
 
 **Bloco 24: Node.js: ORM e Autenticação**
 
-- [ ] 24.1 Introdução - Node.js: ORM e Autenticação
-- [ ] 24.1 ORM - Interface da aplicação com o banco de dados
-- [ ] 24.2 ORM - Associations
+- [x] 24.1 Introdução - Node.js: ORM e Autenticação
+- [x] 24.1 ORM - Interface da aplicação com o banco de dados
+- [x] 24.2 ORM - Associations
 - [ ] 24.3 JWT - (JSON Web Token)
 - [ ] 24.4 Testando APIs com Testes de integração
 

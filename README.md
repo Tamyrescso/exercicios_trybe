@@ -175,14 +175,14 @@ Este repositório contém todos os exercícios desenvolvidos por <a href="https:
 - [x] 24.1 Introdução - Node.js: ORM e Autenticação
 - [x] 24.1 ORM - Interface da aplicação com o banco de dados
 - [x] 24.2 ORM - Associations
-- [ ] 24.3 JWT - (JSON Web Token)
-- [ ] 24.4 Testando APIs com Testes de integração
+- [x] 24.3 JWT - (JSON Web Token)
+- [x] 24.4 Testando APIs com Testes de integração
 
 **Bloco 25: Deployment**
 
-- [ ] 25.1 - Introdução - Deploy
-- [ ] 25.1 - Infraestrutura - Deploy com Heroku
-- [ ] 25.2 - Deploy Docker & Heroku
+- [x] 25.1 - Introdução - Deploy
+- [x] 25.1 - Infraestrutura - Deploy com Heroku
+- [x] 25.2 - Deploy Docker & Heroku
 
 **Bloco 26: TypeScript**
 

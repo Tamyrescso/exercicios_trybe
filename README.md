@@ -131,7 +131,7 @@ Este repositório contém todos os exercícios desenvolvidos por <a href="https:
 
 **Bloco 18: Projeto**
 
-## Desenvolvimento Back-end :hourglass_flowing_sand:
+## Desenvolvimento Back-end :heavy_check_mark:
 
 **Bloco 19: Docker: Utilizando Containers**
 - [x] 19.1 Introdução - Back-end

@@ -197,25 +197,25 @@ Este repositório contém todos os exercícios desenvolvidos por <a href="https:
 - [x] 27.2 Herança e Interfaces
 - [x] 27.3 Polimorfismo
 - [x] 27.4 SOLID - Introdução
-- [ ] 27.5 SOLID - Continuação
+- [x] 27.5 SOLID - Continuação
 
 **Bloco 28: Projeto**
 
 **Bloco 29: Introdução ao MongoDB**
 
-- [ ] 29.1 - Introdução - NoSQL
-- [ ] 29.1 - MongoDB - Introdução
-- [ ] 29.2 - Filter Operators
+- [x] 29.1 - Introdução - NoSQL
+- [x] 29.1 - MongoDB - Introdução
+- [x] 29.2 - Filter Operators
 
 **Bloco 30: MongoDB: Updates Simples e Complexos**
 
-- [ ] 30.1 - Updates Simples
-- [ ] 30.2 - Updates Complexos - Arrays - Parte 1
-- [ ] 30.3 - Updates Complexos - Arrays - Parte 2
+- [x] 30.1 - Updates Simples
+- [x] 30.2 - Updates Complexos - Arrays - Parte 1
+- [x] 30.3 - Updates Complexos - Arrays - Parte 2
 
 **Bloco 31: MasterClass - VPS, CI/CD**
 
-- [ ] 30.1 Dia 1
-- [ ] 30.2 Dia 2
+- [x] 30.1 Dia 1
+- [x] 30.2 Dia 2
 
 **Bloco 32: Projeto**
